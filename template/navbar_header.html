@@ -38,23 +38,23 @@
 			</li>
 		{% endif %}
 
-		<!-- IF S_INDEX -->
-			<!-- IF U_MARK_FORUMS -->
+		{% if S_INDEX %}
+			{% if U_MARK_FORUMS %}
 				<li class="rightside mark-read">
-					<a href="{U_MARK_FORUMS}"  accesskey="m" title="{L_MARK_FORUMS_READ}" data-ajax="mark_forums_read">
-						<i class="icon fp-forum-read fa-fw"></i><span>{L_MARK_FORUMS_READ}</span>
+					<a href="{{ U_MARK_FORUMS }}"  accesskey="m" title="{{ lang('MARK_FORUMS_READ') }}" data-ajax="mark_forums_read">
+						<i class="icon fp-forum-read fa-fw"></i><span>{{ lang('MARK_FORUMS_READ') }}</span>
 					</a>
 				</li>
-			<!-- ENDIF -->
-		<!-- ELSEIF S_HAS_SUBFORUM -->
-			<!-- IF not S_IS_BOT and U_MARK_FORUMS -->
+			{% endif %}
+		{% elseif S_HAS_SUBFORUM %}
+			{% if not S_IS_BOT and U_MARK_FORUMS %}
 				<li class="rightside mark-read">
-					<a href="{U_MARK_FORUMS}" title="{L_MARK_SUBFORUMS_READ}" data-ajax="mark_forums_read">
-						<i class="icon fp-forum-read fa-fw"></i><span>{L_MARK_SUBFORUMS_READ}</span>
+					<a href="{{ U_MARK_FORUMS }}" title="{{ lang('MARK_SUBFORUMS_READ') }}" data-ajax="mark_forums_read">
+						<i class="icon fp-forum-read fa-fw"></i><span>{{ lang('MARK_SUBFORUMS_READ') }}</span>
 					</a>
 				</li>
-			<!-- ENDIF -->
-		<!-- ENDIF -->
+			{% endif %}
+		{% endif %}
 	</ul>
 
 	</div>
