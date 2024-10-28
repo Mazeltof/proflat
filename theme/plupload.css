@@ -54,7 +54,7 @@
 
 .file-progress {
 	background-color: #CCCCCC;
-	display:inline-block;
+	display: inline-block;
 	height: 8px;
 	width: 50px;
 }
@@ -71,23 +71,21 @@
 }
 
 .file-status.file-working:before {
-	background-image: none;
 	content: "\f110";
 }
 
 .file-status.file-uploaded:before {
-	background-image: none;
 	content: "\f14a";
 }
 
 .file-status.file-error:before {
-	background-image: none;
 	content: "\f071";
 }
 
 .file-status.file-error,
 .file-status.file-uploaded,
 .file-status.file-working {
+	background-image: none;
 	display: inline-block;
 	font-weight: normal;
 	font-style: normal;
