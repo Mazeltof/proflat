@@ -5,7 +5,8 @@
 - Specific style sheets
 - Inherited from prosilver
 - Forum and folder icons replaced by vector images
-- Social links in footer
+- phpBB syntax converted to Twig
+- Social links icons in footer (Fontawesome 6 brands)
 
 # screenshots
-![phpBB3-style-proflat](https://github.com/Mazeltof/proflat/assets/16059355/94fe2db5-c55f-45ed-885e-9542744e6835)
+![344126342-94fe2db5-c55f-45ed-885](https://github.com/user-attachments/assets/e3836f68-cbc1-4c7b-ab73-3ee1b0c0b8ea)
