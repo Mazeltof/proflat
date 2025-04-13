@@ -13,3 +13,7 @@
 - phpBB syntax converted to Twig 
 - Added css variables and some css rules
 - Update for phpBB 3.3.14
+
+## 1.3.15 - 2024-04.05
+- Replacing svg loading icon
+- Update phpBB 3.3.15
