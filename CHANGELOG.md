@@ -10,10 +10,22 @@
 - Removed font-proflat and reverted to Fontawesome
 - Rounded folder icons
 - Added Fontawesome 6 brands for social link icons
-- phpBB syntax converted to Twig 
+- Converted phpBB syntax to Twig 
 - Added css variables and some css rules
 - Update for phpBB 3.3.14
 
-## 1.3.15 - 2024-04.05
+## 1.3.15 - 2025-04.05
+- Update for phpBB 3.3.15
+
+## 1.3.16 - 2026-04.29
 - Replacing svg loading icon
-- Update phpBB 3.3.15
+- Update for phpBB 3.3.16
+
+## 1.3.17 - 2026-06-07
+- Update for phpBB 3.3.17
+
+## 1.3.18 - 2026-09-25
+- Update for phpBB 3.3.18
+
+## 1.3.19 - 2026-09-26
+- Update for phpBB 3.3.19

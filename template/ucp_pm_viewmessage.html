@@ -5,7 +5,6 @@
 	</div>
 </div>
 
-
 {% if S_DISPLAY_HISTORY and (U_VIEW_PREVIOUS_HISTORY or U_VIEW_NEXT_HISTORY) %}
 	<fieldset class="display-options clearfix">
 		{% if U_VIEW_PREVIOUS_HISTORY %}
@@ -20,7 +19,6 @@
 		{% endif %}
 	</fieldset>
 {% endif %}
-
 
 <div id="post-{{ MESSAGE_ID }}" class="post pm has-profile">
 <div class="inner">
@@ -130,6 +128,7 @@
 			{% if S_BCC_RECIPIENT %}<br /><strong>{{ lang('BCC') }}{{ lang('COLON') }}</strong> {% for bcc_recipient in loops.bcc_recipient %}{% if bcc_recipient.NAME_FULL %}{{ bcc_recipient.NAME_FULL }}{% else %}<a href="{{ bcc_recipient.U_VIEW }}"{% if bcc_recipient.COLOUR %} style="color:{{ bcc_recipient.COLOUR }};"{% endif %}><strong>{{ bcc_recipient.NAME }}</strong></a>{% endif %}&nbsp;{% endfor %}{% endif %}
 		</p>
 
+		{% EVENT ucp_pm_viewmessage_message_content_before %}
 
 		<div class="content">{{ MESSAGE }}</div>
 

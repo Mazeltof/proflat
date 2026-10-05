@@ -633,13 +633,13 @@ table.table1 thead th a {
 }
 
 /*** Officials extension compatibility ***/
-/** Extension Board Annoucements 1.3.0 ( https://www.phpbb.com/customise/db/extension/boardannouncements/ ) **/
+/** Extension Board Annoucements 1.3.1 ( https://www.phpbb.com/customise/db/extension/boardannouncements/ ) **/
 .proflat .phpbb_announcement {
 	font-size: 1em;
 	border-radius: var(--radius1);
 }
 
-/** Extension Board Rules 2.1.3 ( https://www.phpbb.com/customise/db/extension/boardrules/ ) **/
+/** Extension Board Rules 3.1.0 ( https://www.phpbb.com/customise/db/extension/boardrules/ ) **/
 .proflat .boardrules-container h2 {
 	margin: .5em 0 .2em;
 }
@@ -676,18 +676,4 @@ table.table1 thead th a {
 .proflat .collapse-btn {
 	margin: -30px 15px 0
 }
-/* Extension knowledgebase_1.0.2 ( https://www.phpbb.com/customise/db/extension/knowledge_base/ ) */
-/*.proflat .main-content {
-	background-color: inherit;
-	border-top: inherit;
-	border-radius: inherit;
-	padding: inherit;
-}
-.proflat .explain {
-	line-height: 1em;
-	font-size: 1em;
-	font-family: Arial, Helvetica, sans-serif;
-	text-transform: uppercase;
-	margin: 2px 0 20px;
-	padding-top: 2px;
-}*/
+

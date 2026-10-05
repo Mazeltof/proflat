@@ -1,7 +1,5 @@
 @charset "utf-8";
 
-/* proflat stylesheet */
-
 html {
 	--color01: #5db2ff;
 	--color02: #4889c5;
@@ -1031,7 +1029,7 @@ fieldset.quick-login:hover {
 	background-color: var(--color09); /* default color */
 }
 .proflat .phpbb_announcement div {
-	color: var(--color13);
+	color: var(--color12);
 }
 /** Extension Board Rules 3.0.1 ( https://www.phpbb.com/customise/db/extension/boardrules/ ) **/
 .proflat .boardrules-container .content,
@@ -1047,7 +1045,7 @@ fieldset.quick-login:hover {
 }
 .proflat .highlight {
 	background-color: var(--color08);
-	color: var(--color13);
+	color: var(--color12);
 }
 /** Extension Collapsible Forum Categories 2.0.1 ( https://www.phpbb.com/customise/db/extension/collapsible_forum_categories/ ) **/
 .proflat .collapse-btn .fa-minus-square:before,
